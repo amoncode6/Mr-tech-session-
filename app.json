@@ -1,0 +1,27 @@
+{
+  "name": "Mr Tech Session Generator",
+  "description": "Mr Tech is a lightweight and efficient session generator designed to streamline the process of authenticating and connecting your bot with ease. Whether you're deploying on a personal project or managing multiple clients, Mr Tech offers a secure and fast way to generate session strings for WhatsApp bots and more.",
+  "logo": "",
+  "repository": "https://github.com/Giftedmaurice/giftedmdV2-session-generator",
+  "keywords": [
+    "@Xcelsama"
+  ],
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    }
+  ],
+  "env": {
+    "PORT": {
+      "description": "Port for web app.4000,5000,3000... any!",
+      "value": "5000",
+      "required": false
+    },
+    "MESSAGE": {
+      "description": "",
+      "value": "",
+      "required": false
+    }
+  }
+}
